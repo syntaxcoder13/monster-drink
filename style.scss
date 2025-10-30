@@ -1,0 +1,334 @@
+@font-face {
+    font-family: feast;
+    src: url(./fonts/FEASFBI_.TTF);
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/main.png);
+    background-size: cover;
+    background-position: center;
+
+    nav{
+        height: 80px;
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+
+        .logo{
+            display: flex;
+            justify-content: center;
+        }
+        .logo img{
+            height: 80px;
+        }
+        .nav{
+            height: 100%;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            // margin-left: 12rem;
+
+            h4{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 2rem;
+            }
+        }
+        .btn1{
+            display: none;
+            margin: 1rem 0rem 1rem 0rem;
+            button{
+                padding: 0.9rem 1.5rem;
+                border-radius: 0.5rem;
+                background: linear-gradient(to right, #85ac04, #f2f600);
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                font-size: 1rem;
+                border: none;
+
+                i{
+                    padding: 0.5rem 0.5rem;
+                    margin-left: 0.5rem;
+                    background-color: white;
+                    font-size: 1rem;
+                    border-radius: 3rem;
+                }
+            }
+        }
+    }
+
+    .section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    .left{
+         font-size: 1.5rem;
+         margin-top: 37rem;
+         padding-left: 1.5rem;
+         text-align: center;
+        p{
+            color: #85ac04;
+            font-family: feast;
+        }
+        h2{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h4{
+            color: #85ac04;
+            font-family: feast;
+            font-size: 3rem;
+        }
+    }
+
+    .right{
+        display: none;
+        flex-direction: column;
+        .paragraph2{
+            color: #85ac04;
+            font-family: feast;
+            margin-right: 2rem;
+            margin-top: 2rem;
+            font-size: 1.6rem;
+        }
+        video{
+            height: 35vh;
+            margin-top: 5rem;
+            margin-left: 4rem;
+            border-radius: 1rem;
+        }
+    }
+    }
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+    .middle-part{
+        text-align: center;
+        padding-top: 0.1rem;
+        .top{
+            color: #85ac04;
+            font-family: feast;
+            font-size: 3rem;
+            text-align: center;
+            font-weight: 500;
+            margin-top: 20rem;
+        }
+        .center{
+            .btn2{
+                padding: 1rem 3rem;
+                background: linear-gradient(to right, #85ac04 , #f2f600);
+                border-radius: 0.5rem;
+                border: none;
+                font-size: 2rem;
+                font-family: feast;
+                transform: rotate(-15deg);
+            }
+        }
+        .bottom{
+            color: #85ac04;
+            font-family: feast;
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 0.8rem;
+        }
+    }
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+    .left{
+        display: flex;
+        justify-content: center;
+        img{
+            height: 30vh;
+            margin-top: 8rem;
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        .top{
+            display: flex;
+            justify-content: center;
+            color: #85ac04;
+            font-family: feast;
+            font-size: 3rem;
+            margin-top: 1rem;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-left: 1rem;
+        }
+        .paragraph3{
+            display: none;
+            justify-content: center;
+            color: white;
+            font-family: feast;
+            font-size: 2rem;
+        }
+        .button{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+            margin-left: 6rem;
+            margin-right: 6rem;
+            .btn3{
+                padding: 0.9rem 1.5rem;
+                border-radius: 0.5rem;
+                background: linear-gradient(to right, #85ac04, #f2f600);
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                font-size: 1rem;
+                border: none;
+
+                i{
+                    padding: 0.5rem 0.5rem;
+                    margin-left: 0.5rem;
+                    background-color: black;
+                    color: #f2f600;
+                    font-size: 1rem;
+                    border-radius: 3rem;
+                }
+            }
+            .btn4{
+                padding: 0.9rem 1.5rem;
+                border-radius: 0.5rem;
+                background-color: transparent;
+                color: white;
+                border: 1px solid grey;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                font-size: 1rem;
+                margin-top: 1rem;
+
+                i{
+                    padding: 0.5rem 0.5rem;
+                    margin-left: 0.5rem;
+                    background-color: white;
+                    color: black;
+                    font-size: 1rem;
+                    border-radius: 3rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 900px){
+    main{
+        nav{
+            .nav{
+                display: flex;
+            }
+            
+            .btn1{
+                display: flex;
+            }
+
+        }    
+        
+        .section{
+
+            .left{
+                margin-top: 30rem;
+            }
+
+            .right{
+                display: flex;
+            }
+        }
+    }
+    .page2{
+        .middle-part{
+            .top{
+                font-size: 5rem;
+                margin-top: 10rem;
+            }
+            .center{
+                .btn2{
+                    padding: 1rem 4rem 1rem 4rem;
+                    font-size: 3rem;
+                }
+            }
+            .bottom{
+                font-size: 5rem;
+            }
+        }
+    }
+    .page3{
+        display: flex;
+        .left{
+            display: flex;
+            justify-content: left;
+            width: 50%;
+
+            img{
+                height: 60vh;
+                margin-left: 10rem;
+            }
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+
+            .top{
+                font-size: 5rem;
+                margin-top: -7rem;
+                margin-left: 7rem;
+            }
+            .heading{
+                font-size: 3rem;
+                margin-top: 1rem;
+                margin-left: 7rem;
+            }
+            .paragraph3{
+                display: flex;
+                font-size: 1rem;
+                margin-left: 8rem;
+                margin-top: 1rem;
+                width: 60vh;
+            }
+            .button{
+                display: flex;
+                flex-direction: row;
+                margin-top: 2rem;
+                .btn3{
+                    font-size: 1.5rem;
+                    margin-top: 1rem;
+                    margin-left: 1rem;
+                }
+                .btn4{
+                    font-size: 1.5rem;
+                    margin-left: 1rem;
+                    
+                }
+            }
+        }
+    }
+}

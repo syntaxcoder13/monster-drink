@@ -1,0 +1,301 @@
+@font-face {
+  font-family: feast;
+  src: url(./fonts/FEASFBI_.TTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/main.png);
+  background-size: cover;
+  background-position: center;
+}
+main nav {
+  height: 80px;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+}
+main nav .logo {
+  display: flex;
+  justify-content: center;
+}
+main nav .logo img {
+  height: 80px;
+}
+main nav .nav {
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+main nav .nav h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2rem;
+}
+main nav .btn1 {
+  display: none;
+  margin: 1rem 0rem 1rem 0rem;
+}
+main nav .btn1 button {
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #85ac04, #f2f600);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+}
+main nav .btn1 button i {
+  padding: 0.5rem 0.5rem;
+  margin-left: 0.5rem;
+  background-color: white;
+  font-size: 1rem;
+  border-radius: 3rem;
+}
+main .section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .section .left {
+  font-size: 1.5rem;
+  margin-top: 37rem;
+  padding-left: 1.5rem;
+  text-align: center;
+}
+main .section .left p {
+  color: #85ac04;
+  font-family: feast;
+}
+main .section .left h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .section .left h4 {
+  color: #85ac04;
+  font-family: feast;
+  font-size: 3rem;
+}
+main .section .right {
+  display: none;
+  flex-direction: column;
+}
+main .section .right .paragraph2 {
+  color: #85ac04;
+  font-family: feast;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+main .section .right video {
+  height: 35vh;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  border-radius: 1rem;
+}
+
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.page2 .middle-part {
+  text-align: center;
+  padding-top: 0.1rem;
+}
+.page2 .middle-part .top {
+  color: #85ac04;
+  font-family: feast;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20rem;
+}
+.page2 .middle-part .center .btn2 {
+  padding: 1rem 3rem;
+  background: linear-gradient(to right, #85ac04, #f2f600);
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 2rem;
+  font-family: feast;
+  transform: rotate(-15deg);
+}
+.page2 .middle-part .bottom {
+  color: #85ac04;
+  font-family: feast;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.page3 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.page3 .left {
+  display: flex;
+  justify-content: center;
+}
+.page3 .left img {
+  height: 30vh;
+  margin-top: 8rem;
+}
+.page3 .right {
+  display: flex;
+  flex-direction: column;
+}
+.page3 .right .top {
+  display: flex;
+  justify-content: center;
+  color: #85ac04;
+  font-family: feast;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.page3 .right .heading {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.page3 .right .paragraph3 {
+  display: none;
+  justify-content: center;
+  color: white;
+  font-family: feast;
+  font-size: 2rem;
+}
+.page3 .right .button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.page3 .right .button .btn3 {
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #85ac04, #f2f600);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+}
+.page3 .right .button .btn3 i {
+  padding: 0.5rem 0.5rem;
+  margin-left: 0.5rem;
+  background-color: black;
+  color: #f2f600;
+  font-size: 1rem;
+  border-radius: 3rem;
+}
+.page3 .right .button .btn4 {
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.page3 .right .button .btn4 i {
+  padding: 0.5rem 0.5rem;
+  margin-left: 0.5rem;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  border-radius: 3rem;
+}
+
+@media (min-width: 900px) {
+  main nav .nav {
+    display: flex;
+  }
+  main nav .btn1 {
+    display: flex;
+  }
+  main .section .left {
+    margin-top: 30rem;
+  }
+  main .section .right {
+    display: flex;
+  }
+  .page2 .middle-part .top {
+    font-size: 5rem;
+    margin-top: 10rem;
+  }
+  .page2 .middle-part .center .btn2 {
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 3rem;
+  }
+  .page2 .middle-part .bottom {
+    font-size: 5rem;
+  }
+  .page3 {
+    display: flex;
+  }
+  .page3 .left {
+    display: flex;
+    justify-content: left;
+    width: 50%;
+  }
+  .page3 .left img {
+    height: 60vh;
+    margin-left: 10rem;
+  }
+  .page3 .right {
+    display: flex;
+    justify-content: center;
+  }
+  .page3 .right .top {
+    font-size: 5rem;
+    margin-top: -7rem;
+    margin-left: 7rem;
+  }
+  .page3 .right .heading {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
+  }
+  .page3 .right .paragraph3 {
+    display: flex;
+    font-size: 1rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    width: 60vh;
+  }
+  .page3 .right .button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+  .page3 .right .button .btn3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .page3 .right .button .btn4 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
